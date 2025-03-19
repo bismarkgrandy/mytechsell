@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-  "build": "cd backend && npm install && cd ../frontend && npm install && npx vite build",
+ "scripts": {
+  "build": "cd backend && npm install && cd ../frontend && npm install && npm run render-build",
   "start": "npm run start --prefix backend"
 },
   "keywords": [],
